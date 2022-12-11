@@ -44,7 +44,7 @@
           </vspacer>
         </children>
       </grid>
-      <grid id="f01d" layout-manager="GridLayoutManager" row-count="6" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+      <grid id="f01d" layout-manager="GridLayoutManager" row-count="9" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
         <margin top="10" left="20" bottom="10" right="20"/>
         <constraints>
           <grid row="0" column="1" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
@@ -54,50 +54,98 @@
         <children>
           <component id="c9bf6" class="javax.swing.JButton" binding="btnCallout">
             <constraints>
-              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <minimum-size width="-1" height="30"/>
-                <preferred-size width="200" height="100"/>
+                <preferred-size width="70" height="100"/>
               </grid>
             </constraints>
             <properties>
               <font name="Segoe Print" size="18" style="1"/>
-              <text value="發送會診通知"/>
+              <text value="急救室"/>
             </properties>
           </component>
-          <component id="c889b" class="javax.swing.JButton" binding="btnList">
+          <component id="c889b" class="javax.swing.JButton" binding="btnCallout2">
             <constraints>
-              <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+              <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
                 <minimum-size width="-1" height="30"/>
-                <preferred-size width="200" height="100"/>
+                <preferred-size width="70" height="100"/>
               </grid>
             </constraints>
             <properties>
-              <font name="Segoe Print" size="18" style="1"/>
-              <text value="查看接聽狀況"/>
+              <font name="Segoe Print" size="15" style="1"/>
+              <text value="急救室-不備血"/>
             </properties>
           </component>
           <component id="c5c49" class="javax.swing.JLabel" binding="lbAdmin">
             <constraints>
-              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+              <grid row="1" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
             </constraints>
             <properties>
               <font name="Segoe Print" size="26" style="1"/>
               <text value="新光醫院會診訊息通知系統"/>
             </properties>
           </component>
-          <vspacer id="76d14">
+          <component id="75b9" class="javax.swing.JButton" binding="btnCallout1">
             <constraints>
-              <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <grid row="5" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+                <preferred-size width="70" height="100"/>
+              </grid>
             </constraints>
-          </vspacer>
-          <vspacer id="faf35">
+            <properties>
+              <font name="Segoe Print" size="18" style="1"/>
+              <text value="急診外科"/>
+            </properties>
+          </component>
+          <component id="19c02" class="javax.swing.JButton" binding="btnCallout3">
             <constraints>
-              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <grid row="6" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <minimum-size width="-1" height="30"/>
+                <preferred-size width="70" height="100"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font name="Segoe Print" size="15" style="1"/>
+              <text value="急診外科-不備血"/>
+            </properties>
+          </component>
+          <component id="c56f6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="2" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <foreground color="-3652542"/>
+              <text value="※ 點擊後將立刻發送會診通知 ※"/>
+            </properties>
+          </component>
+          <vspacer id="fad5c">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
             </constraints>
           </vspacer>
           <vspacer id="7bec2">
             <constraints>
-              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+              <grid row="0" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <vspacer id="5757b">
+            <constraints>
+              <grid row="4" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="dc5f2" class="javax.swing.JLabel" binding="btnHelp">
+            <constraints>
+              <grid row="7" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="4" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <icon value="Images/help.png"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <vspacer id="a7a9b">
+            <constraints>
+              <grid row="8" column="0" row-span="1" col-span="2" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
             </constraints>
           </vspacer>
         </children>
