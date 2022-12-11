@@ -6,8 +6,6 @@ import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.Statement;
-import java.awt.event.KeyEvent;
-import java.awt.event.KeyAdapter;
 
 public class RegistrationForm extends JDialog {
 
