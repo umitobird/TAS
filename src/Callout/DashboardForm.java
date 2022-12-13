@@ -1,4 +1,4 @@
-import com.cht.tas.ap.CallOut;
+package Callout;
 
 import javax.swing.*;
 import java.awt.*;
@@ -72,8 +72,14 @@ public class DashboardForm extends JFrame {
                             "已發送通知",
                             "訊息",JOptionPane.INFORMATION_MESSAGE);
                 } catch (IOException ex) {
+                    JOptionPane.showMessageDialog(DashboardForm.this,
+                            "發送失敗",
+                            "訊息",JOptionPane.INFORMATION_MESSAGE);
                     throw new RuntimeException(ex);
                 } catch (InterruptedException ex) {
+                    JOptionPane.showMessageDialog(DashboardForm.this,
+                            "發送失敗",
+                            "訊息",JOptionPane.INFORMATION_MESSAGE);
                     throw new RuntimeException(ex);
                 }
             }
@@ -89,8 +95,14 @@ public class DashboardForm extends JFrame {
                             "已發送通知",
                             "訊息",JOptionPane.INFORMATION_MESSAGE);
                 } catch (IOException ex) {
+                    JOptionPane.showMessageDialog(DashboardForm.this,
+                            "發送失敗",
+                            "訊息",JOptionPane.INFORMATION_MESSAGE);
                     throw new RuntimeException(ex);
                 } catch (InterruptedException ex) {
+                    JOptionPane.showMessageDialog(DashboardForm.this,
+                            "發送失敗",
+                            "訊息",JOptionPane.INFORMATION_MESSAGE);
                     throw new RuntimeException(ex);
                 }
             }
@@ -106,8 +118,14 @@ public class DashboardForm extends JFrame {
                             "已發送通知",
                             "訊息",JOptionPane.INFORMATION_MESSAGE);
                 } catch (IOException ex) {
+                    JOptionPane.showMessageDialog(DashboardForm.this,
+                            "發送失敗",
+                            "訊息",JOptionPane.INFORMATION_MESSAGE);
                     throw new RuntimeException(ex);
                 } catch (InterruptedException ex) {
+                    JOptionPane.showMessageDialog(DashboardForm.this,
+                            "發送失敗",
+                            "訊息",JOptionPane.INFORMATION_MESSAGE);
                     throw new RuntimeException(ex);
                 }
             }
@@ -123,8 +141,14 @@ public class DashboardForm extends JFrame {
                             "已發送通知",
                             "訊息",JOptionPane.INFORMATION_MESSAGE);
                 } catch (IOException ex) {
+                    JOptionPane.showMessageDialog(DashboardForm.this,
+                            "發送失敗",
+                            "訊息",JOptionPane.INFORMATION_MESSAGE);
                     throw new RuntimeException(ex);
                 } catch (InterruptedException ex) {
+                    JOptionPane.showMessageDialog(DashboardForm.this,
+                            "發送失敗",
+                            "訊息",JOptionPane.INFORMATION_MESSAGE);
                     throw new RuntimeException(ex);
                 }
             }
